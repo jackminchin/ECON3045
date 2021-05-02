@@ -1,0 +1,420 @@
+Starting preprocessing of the model file ...
+Found 29 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 1).
+Processing outputs ...
+done
+Preprocessing completed.
+
+
+
+
+Residuals of the static equations:
+
+Equation number 1 : 0 : FOC Wages, eq. (2)
+Equation number 2 : 0 : Euler equation eq. (3)
+Equation number 3 : 0 : Definition nominal interest rate), p. 22 top
+Equation number 4 : 0 : Aggregate output, above eq. (14)
+Equation number 5 : 0 : Definition Real interest rate
+Equation number 6 : 0 : Market Clearing, eq. (15)
+Equation number 7 : 0 : Technology Shock, eq. (6)
+Equation number 8 : 0 : Preference Shock, p.54
+Equation number 9 : 0 : definition nominal money growth
+Equation number 10 : 0 : exogenous process for money supply growth rate, eq. (35)
+Equation number 11 : 0 : definition annualized nominal money growth
+Equation number 12 : 0 : Definition marginal cost
+Equation number 13 : 0 : LOM prices, eq. (7)
+Equation number 14 : 0 : LOM price dispersion
+Equation number 15 : 0 : FOC price setting
+Equation number 16 : 0 : Auxiliary price setting recursion 1
+Equation number 17 : 0 : Auxiliary price setting recursion 2
+Equation number 18 : 0 : Definition log output
+Equation number 19 : 0 : Definition log real wage
+Equation number 20 : 0 : Definition log hours
+Equation number 21 : 0 : Annualized inflation
+Equation number 22 : 0 : Annualized nominal interest rate
+Equation number 23 : 0 : Annualized real interest rate
+Equation number 24 : 0 : Real money demand, eq. (4)
+Equation number 25 : 0 : definition nominal money stock
+Equation number 26 : 0 : Definition price level
+Equation number 27 : 0 : Definition log price level
+Equation number 28 : 0 : Definition log TFP
+Equation number 29 : 0 : Definition log preference
+
+
+
+STEADY-STATE RESULTS:
+
+C                		 0.95058
+W_real           		 0.678025
+Pi               		 1
+A                		 1
+N                		 0.934655
+R                		 1.0101
+realinterest     		 1.0101
+Y                		 0.95058
+Q                		 0.99
+Z                		 1
+S                		 1
+Pi_star          		 1
+x_aux_1          		 3.452
+x_aux_2          		 3.8835
+MC               		 0.888889
+M_real           		 0.915236
+i_ann            		 0.0402013
+pi_ann           		 0
+r_real_ann       		 0.0402013
+P                		 1
+log_m_nominal    		 -0.0885729
+log_y            		 -0.0506831
+log_W_real       		 -0.388571
+log_N            		 -0.0675775
+log_P            		 0
+log_A            		 0
+log_Z            		 0
+money_growth     		 0
+money_growth_ann 		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+             0.5              0.5                0
+             0.5              0.5                0
+          0.6653           0.6653                0
+            0.75             0.75                0
+             0.9              0.9                0
+               1                1                0
+           1.265            1.265                0
+           1.347            1.347                0
+           1.518            1.518                0
+             Inf              Inf                0
+             Inf              Inf                0
+
+
+There are 5 eigenvalue(s) larger than 1 in modulus 
+for 5 forward-looking variable(s)
+
+The rank condition is verified.
+
+
+
+
+
+Residuals of the static equations:
+
+Equation number 1 : 0 : FOC Wages, eq. (2)
+Equation number 2 : 0 : Euler equation eq. (3)
+Equation number 3 : 0 : Definition nominal interest rate), p. 22 top
+Equation number 4 : 0 : Aggregate output, above eq. (14)
+Equation number 5 : 0 : Definition Real interest rate
+Equation number 6 : 0 : Market Clearing, eq. (15)
+Equation number 7 : 0 : Technology Shock, eq. (6)
+Equation number 8 : 0 : Preference Shock, p.54
+Equation number 9 : 0 : definition nominal money growth
+Equation number 10 : 0 : exogenous process for money supply growth rate, eq. (35)
+Equation number 11 : 0 : definition annualized nominal money growth
+Equation number 12 : 0 : Definition marginal cost
+Equation number 13 : 0 : LOM prices, eq. (7)
+Equation number 14 : 0 : LOM price dispersion
+Equation number 15 : 0 : FOC price setting
+Equation number 16 : 0 : Auxiliary price setting recursion 1
+Equation number 17 : 0 : Auxiliary price setting recursion 2
+Equation number 18 : 0 : Definition log output
+Equation number 19 : 0 : Definition log real wage
+Equation number 20 : 0 : Definition log hours
+Equation number 21 : 0 : Annualized inflation
+Equation number 22 : 0 : Annualized nominal interest rate
+Equation number 23 : 0 : Annualized real interest rate
+Equation number 24 : 0 : Real money demand, eq. (4)
+Equation number 25 : 0 : definition nominal money stock
+Equation number 26 : 0 : Definition price level
+Equation number 27 : 0 : Definition log price level
+Equation number 28 : 0 : Definition log TFP
+Equation number 29 : 0 : Definition log preference
+
+
+
+STEADY-STATE RESULTS:
+
+C                		 0.95058
+W_real           		 0.678025
+Pi               		 1
+A                		 1
+N                		 0.934655
+R                		 1.0101
+realinterest     		 1.0101
+Y                		 0.95058
+Q                		 0.99
+Z                		 1
+S                		 1
+Pi_star          		 1
+x_aux_1          		 3.452
+x_aux_2          		 3.8835
+MC               		 0.888889
+M_real           		 0.915236
+i_ann            		 0.0402013
+pi_ann           		 0
+r_real_ann       		 0.0402013
+P                		 1
+log_m_nominal    		 -0.0885729
+log_y            		 -0.0506831
+log_W_real       		 -0.388571
+log_N            		 -0.0675775
+log_P            		 0
+log_A            		 0
+log_Z            		 0
+money_growth     		 0
+money_growth_ann 		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+             0.5              0.5                0
+             0.5              0.5                0
+          0.6653           0.6653                0
+            0.75             0.75                0
+             0.9              0.9                0
+               1                1                0
+           1.265            1.265                0
+           1.347            1.347                0
+           1.518            1.518                0
+             Inf              Inf                0
+             Inf              Inf                0
+
+
+There are 5 eigenvalue(s) larger than 1 in modulus 
+for 5 forward-looking variable(s)
+
+The rank condition is verified.
+
+
+MODEL SUMMARY
+
+  Number of variables:         29
+  Number of stochastic shocks: 3
+  Number of state variables:   6
+  Number of jumpers:           5
+  Number of static variables:  19
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a     eps_z     eps_m
+eps_a        0.000000  0.000000  0.000000
+eps_z        0.000000  0.000000  0.000000
+eps_m        0.000000  0.000000  0.000006
+
+POLICY AND TRANSITION FUNCTIONS
+                                pi_ann             log_y             log_N        log_W_real             log_P             i_ann        r_real_ann     log_m_nominal  money_growth_ann
+Constant                             0         -0.050683         -0.067578         -0.388571                 0          0.040201          0.040201         -0.088573                 0
+A(-1)                        -1.009851          0.252463         -0.863383         -4.064453         -0.252463                 0          0.570918                 0                 0
+S(-1)                         0.423257         -0.105814          0.608914          2.938757          0.105814                 0         -0.175799                 0                 0
+M_real(-1)                    1.462579          0.726969          0.969292          5.573430          0.365645                 0         -0.973125          1.092614                 0
+P(-1)                                0                 0                 0                 0          1.000000                 0                 0          1.000000                 0
+money_growth(-1)              1.220540          0.521555          0.695406          3.998586          0.305135          0.346620         -0.524497          0.500000          2.000000
+Z(-1)                         0.222553          0.271052          0.361402          2.078062          0.055638          0.346620          0.309822                 0                 0
+eps_a                        -1.122056          0.280514         -0.959315         -4.516058         -0.280514                 0          0.634353                 0                 0
+eps_z                        -0.445106         -0.542103         -0.722804         -4.156124         -0.111276         -0.693241         -0.619643                 0                 0
+eps_m                         2.441081          1.043109          1.390812          7.997171          0.610270          0.693241         -1.048994          1.000000          4.000000
+
+
+THEORETICAL MOMENTS
+VARIABLE                 MEAN  STD. DEV.   VARIANCE
+pi_ann                 0.0000     0.0086     0.0001
+log_y                 -0.0507     0.0038     0.0000
+log_N                 -0.0676     0.0051     0.0000
+log_W_real            -0.3886     0.0291     0.0008
+log_P                     NaN        NaN        NaN
+i_ann                  0.0402     0.0020     0.0000
+r_real_ann             0.0402     0.0042     0.0000
+log_m_nominal             NaN        NaN        NaN
+money_growth_ann       0.0000     0.0115     0.0001
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+                     eps_a   eps_z   eps_m
+pi_ann                0.00    0.00  100.00
+log_y                 0.00    0.00  100.00
+log_N                 0.00    0.00  100.00
+log_W_real            0.00    0.00  100.00
+i_ann                 0.00    0.00  100.00
+r_real_ann            0.00    0.00  100.00
+money_growth_ann      0.00    0.00  100.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables                     pi_ann             log_y             log_N        log_W_real             i_ann        r_real_ann  money_growth_ann
+pi_ann                        1.0000            0.9992            0.9992            0.9992            0.9524           -0.9926            0.9524
+log_y                         0.9992            1.0000            1.0000            1.0000            0.9396           -0.9966            0.9396
+log_N                         0.9992            1.0000            1.0000            1.0000            0.9396           -0.9966            0.9396
+log_W_real                    0.9992            1.0000            1.0000            1.0000            0.9396           -0.9966            0.9396
+i_ann                         0.9524            0.9396            0.9396            0.9396            1.0000           -0.9082            1.0000
+r_real_ann                   -0.9926           -0.9966           -0.9966           -0.9966           -0.9082            1.0000           -0.9082
+money_growth_ann              0.9524            0.9396            0.9396            0.9396            1.0000           -0.9082            1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order                    1       2       3       4       5
+pi_ann              0.7032  0.4868  0.3333  0.2265  0.1531
+log_y               0.7273  0.5149  0.3581  0.2460  0.1675
+log_N               0.7273  0.5149  0.3581  0.2460  0.1675
+log_W_real          0.7273  0.5149  0.3581  0.2460  0.1675
+i_ann               0.5000  0.2500  0.1250  0.0625  0.0313
+r_real_ann          0.7748  0.5702  0.4067  0.2843  0.1960
+money_growth_ann    0.5000  0.2500  0.1250  0.0625  0.0312
+
+MODEL SUMMARY
+
+  Number of variables:         29
+  Number of stochastic shocks: 3
+  Number of state variables:   6
+  Number of jumpers:           5
+  Number of static variables:  19
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a     eps_z     eps_m
+eps_a        0.000000  0.000000  0.000000
+eps_z        0.000000  0.000025  0.000000
+eps_m        0.000000  0.000000  0.000000
+
+POLICY AND TRANSITION FUNCTIONS
+                              pi_ann           log_y           log_N      log_W_real           log_P           i_ann      r_real_ann   log_m_nominal           log_Z
+Constant                           0       -0.050683       -0.067578       -0.388571               0        0.040201        0.040201       -0.088573               0
+A(-1)                      -1.009851        0.252463       -0.863383       -4.064453       -0.252463               0        0.570918               0               0
+S(-1)                       0.423257       -0.105814        0.608914        2.938757        0.105814               0       -0.175799               0               0
+M_real(-1)                  1.462579        0.726969        0.969292        5.573430        0.365645               0       -0.973125        1.092614               0
+P(-1)                              0               0               0               0        1.000000               0               0        1.000000               0
+money_growth(-1)            1.220540        0.521555        0.695406        3.998586        0.305135        0.346620       -0.524497        0.500000               0
+Z(-1)                       0.222553        0.271052        0.361402        2.078062        0.055638        0.346620        0.309822               0        0.500000
+eps_a                      -1.122056        0.280514       -0.959315       -4.516058       -0.280514               0        0.634353               0               0
+eps_z                      -0.445106       -0.542103       -0.722804       -4.156124       -0.111276       -0.693241       -0.619643               0       -1.000000
+eps_m                       2.441081        1.043109        1.390812        7.997171        0.610270        0.693241       -1.048994        1.000000               0
+
+
+THEORETICAL MOMENTS
+VARIABLE              MEAN  STD. DEV.   VARIANCE
+pi_ann              0.0000     0.0024     0.0000
+log_y              -0.0507     0.0029     0.0000
+log_N              -0.0676     0.0039     0.0000
+log_W_real         -0.3886     0.0223     0.0005
+log_P                  NaN        NaN        NaN
+i_ann               0.0402     0.0040     0.0000
+r_real_ann          0.0402     0.0041     0.0000
+log_m_nominal          NaN        NaN        NaN
+log_Z               0.0000     0.0058     0.0000
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+               eps_a   eps_z   eps_m
+pi_ann          0.00  100.00    0.00
+log_y           0.00  100.00    0.00
+log_N           0.00  100.00    0.00
+log_W_real      0.00  100.00    0.00
+i_ann           0.00  100.00    0.00
+r_real_ann      0.00  100.00    0.00
+log_Z           0.00  100.00    0.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables         pi_ann       log_y       log_N  log_W_real       i_ann  r_real_ann       log_Z
+pi_ann            1.0000      0.9204      0.9204      0.9204      0.7899      0.6188      0.7899
+log_y             0.9204      1.0000      1.0000      1.0000      0.9668      0.8767      0.9668
+log_N             0.9204      1.0000      1.0000      1.0000      0.9668      0.8767      0.9668
+log_W_real        0.9204      1.0000      1.0000      1.0000      0.9668      0.8767      0.9668
+i_ann             0.7899      0.9668      0.9668      0.9668      1.0000      0.9705      1.0000
+r_real_ann        0.6188      0.8767      0.8767      0.8767      0.9705      1.0000      0.9705
+log_Z             0.7899      0.9668      0.9668      0.9668      1.0000      0.9705      1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order              1       2       3       4       5
+pi_ann        0.2490 -0.0425 -0.1324 -0.1401 -0.1192
+log_y         0.3510  0.0764 -0.0278 -0.0578 -0.0581
+log_N         0.3510  0.0764 -0.0278 -0.0578 -0.0581
+log_W_real    0.3510  0.0764 -0.0278 -0.0578 -0.0581
+i_ann         0.5000  0.2500  0.1250  0.0625  0.0312
+r_real_ann    0.6608  0.4374  0.2899  0.1923  0.1277
+log_Z         0.5000  0.2500  0.1250  0.0625  0.0313
+
+MODEL SUMMARY
+
+  Number of variables:         29
+  Number of stochastic shocks: 3
+  Number of state variables:   6
+  Number of jumpers:           5
+  Number of static variables:  19
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables       eps_a     eps_z     eps_m
+eps_a        0.000100  0.000000  0.000000
+eps_z        0.000000  0.000000  0.000000
+eps_m        0.000000  0.000000  0.000000
+
+POLICY AND TRANSITION FUNCTIONS
+                              pi_ann           log_y           log_N      log_W_real           log_P           i_ann      r_real_ann   log_m_nominal           log_A
+Constant                           0       -0.050683       -0.067578       -0.388571               0        0.040201        0.040201       -0.088573               0
+A(-1)                      -1.009851        0.252463       -0.863383       -4.064453       -0.252463               0        0.570918               0        0.900000
+S(-1)                       0.423257       -0.105814        0.608914        2.938757        0.105814               0       -0.175799               0               0
+M_real(-1)                  1.462579        0.726969        0.969292        5.573430        0.365645               0       -0.973125        1.092614               0
+P(-1)                              0               0               0               0        1.000000               0               0        1.000000               0
+money_growth(-1)            1.220540        0.521555        0.695406        3.998586        0.305135        0.346620       -0.524497        0.500000               0
+Z(-1)                       0.222553        0.271052        0.361402        2.078062        0.055638        0.346620        0.309822               0               0
+eps_a                      -1.122056        0.280514       -0.959315       -4.516058       -0.280514               0        0.634353               0        1.000000
+eps_z                      -0.445106       -0.542103       -0.722804       -4.156124       -0.111276       -0.693241       -0.619643               0               0
+eps_m                       2.441081        1.043109        1.390812        7.997171        0.610270        0.693241       -1.048994        1.000000               0
+
+
+THEORETICAL MOMENTS
+VARIABLE              MEAN  STD. DEV.   VARIANCE
+pi_ann              0.0000     0.0141     0.0002
+log_y              -0.0507     0.0172     0.0003
+log_N              -0.0676     0.0124     0.0002
+log_W_real         -0.3886     0.0564     0.0032
+log_P                  NaN        NaN        NaN
+i_ann               0.0402     0.0000     0.0000
+r_real_ann          0.0402     0.0085     0.0001
+log_m_nominal          NaN        NaN        NaN
+log_A               0.0000     0.0229     0.0005
+
+
+
+VARIANCE DECOMPOSITION (in percent)
+               eps_a   eps_z   eps_m
+pi_ann        100.00    0.00    0.00
+log_y         100.00    0.00    0.00
+log_N         100.00    0.00    0.00
+log_W_real    100.00    0.00    0.00
+i_ann           0.00   50.00   50.00
+r_real_ann    100.00    0.00    0.00
+log_A         100.00    0.00    0.00
+
+
+
+MATRIX OF CORRELATIONS
+Variables         pi_ann       log_y       log_N  log_W_real  r_real_ann       log_A
+pi_ann            1.0000     -0.1023      0.9347      0.9962     -0.9631     -0.4556
+log_y            -0.1023      1.0000     -0.4491     -0.1885     -0.1693      0.9321
+log_N             0.9347     -0.4491      1.0000      0.9621     -0.8046     -0.7422
+log_W_real        0.9962     -0.1885      0.9621      1.0000     -0.9360     -0.5313
+r_real_ann       -0.9631     -0.1693     -0.8046     -0.9360      1.0000      0.1991
+log_A            -0.4556      0.9321     -0.7422     -0.5313      0.1991      1.0000
+
+
+
+COEFFICIENTS OF AUTOCORRELATION
+Order              1       2       3       4       5
+pi_ann        0.5821  0.3123  0.1404  0.0327 -0.0329
+log_y         0.9791  0.9338  0.8754  0.8111  0.7455
+log_N         0.6327  0.3916  0.2342  0.1320  0.0664
+log_W_real    0.5851  0.3171  0.1460  0.0386 -0.0269
+r_real_ann    0.6112  0.3579  0.1942  0.0897  0.0241
+log_A         0.9000  0.8100  0.7290  0.6561  0.5905
+Total computing time : 0h00m03s

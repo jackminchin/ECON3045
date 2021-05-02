@@ -1,0 +1,154 @@
+Starting preprocessing of the model file ...
+Found 15 equation(s).
+Evaluating expressions...done
+Computing static model derivatives (order 1).
+Computing dynamic model derivatives (order 2).
+Processing outputs ...
+done
+Preprocessing completed.
+
+
+
+
+Residuals of the static equations:
+
+Equation number 1 : 0 : q
+Equation number 2 : 0 : 2
+Equation number 3 : 0 : k
+Equation number 4 : 0 : c
+Equation number 5 : 0 : w
+Equation number 6 : 0 : pi
+Equation number 7 : 0 : mu_hat_p
+Equation number 8 : 0 : 8
+Equation number 9 : 0 : y
+Equation number 10 : 0 : z
+Equation number 11 : 0 : 11
+Equation number 12 : -0.010101 : r
+Equation number 13 : 0 : b
+Equation number 14 : 0 : t
+Equation number 15 : 0 : g
+
+
+[Warning: Some of the parameters have no value (Gamma) when using steady. If these parameters are
+not initialized in a steadystate file or a steady_state_model-block, Dynare may not be able to
+solve the model...] 
+
+STEADY-STATE RESULTS:
+
+n        		 -0.00178578
+c        		 -0.00317329
+pi       		 -0.020202
+k        		 -0.00531623
+b        		 0
+g        		 0
+y        		 -0.0029626
+mu_hat_p 		 0.00235363
+i        		 -0.00531623
+w        		 -0.00353045
+r        		 -0.020202
+t        		 0
+q        		 -4.42665e-18
+r_k      		 2.56179e-17
+z        		 0
+
+EIGENVALUES:
+         Modulus             Real        Imaginary
+
+          0.6768           0.6768                0
+             0.9              0.9                0
+             0.9              0.9                0
+          0.9838           0.9838                0
+           1.025            1.025                0
+           1.815            1.728           0.5555
+           1.815            1.728          -0.5555
+       3.591e+16        3.591e+16                0
+       3.756e+17        3.756e+17                0
+             Inf              Inf                0
+             Inf              Inf                0
+
+
+There are 7 eigenvalue(s) larger than 1 in modulus 
+for 7 forward-looking variable(s)
+
+The rank condition is verified.
+
+[Warning: Some of the parameters have no value (Gamma) when using stoch_simul. If these parameters
+are not initialized in a steadystate file or a steady_state_model-block, Dynare may not be able to
+solve the model...] 
+
+MODEL SUMMARY
+
+  Number of variables:         15
+  Number of stochastic shocks: 2
+  Number of state variables:   4
+  Number of jumpers:           7
+  Number of static variables:  5
+
+
+MATRIX OF COVARIANCE OF EXOGENOUS SHOCKS
+Variables    epsilon_g  epsilon_z
+epsilon_g     0.000000   0.000000
+epsilon_z     0.000000   0.010000
+
+POLICY AND TRANSITION FUNCTIONS
+                                   y               c               i               n               w              pi               z               g
+Constant                   -0.002963       -0.003173       -0.005316       -0.001786       -0.003530       -0.020202               0               0
+k(-1)                       0.288943        0.364399        0.351376       -0.066586        0.351082       -0.014648               0               0
+b(-1)                      -0.201768       -0.439243        0.317053       -0.302651       -0.499773       -0.156580               0               0
+g(-1)                       1.374125        1.016793       -0.698262        2.061188        1.429031        0.505090               0        0.900000
+z(-1)                      -0.930325       -1.106248       -1.335350       -0.495487       -0.125346        0.248154        0.900000               0
+epsilon_g                   1.526806        1.129770       -0.775847        2.290209        1.587812        0.561211               0        1.000000
+epsilon_z                  -1.033694       -1.229165       -1.483723       -0.550541       -0.139273        0.275727        1.000000               0
+
+
+MOMENTS OF SIMULATED VARIABLES
+VARIABLE              MEAN       STD. DEV.        VARIANCE        SKEWNESS        KURTOSIS
+y                 0.089267        0.255887        0.065478       -0.112635        0.236549
+c                 0.109111        0.306076        0.093683       -0.119357        0.241076
+i                 0.119109        0.361988        0.131035       -0.094559        0.225444
+n                 0.019646        0.122079        0.014903        0.118693        0.196740
+w                 0.048098        0.077469        0.006001       -0.191918        0.294269
+pi               -0.036963        0.063617        0.004047       -0.001923        0.190213
+z                -0.054118        0.227591        0.051798       -0.035279        0.186763
+g                 0.000000        0.000000        0.000000             NaN             NaN
+
+
+CORRELATION OF SIMULATED VARIABLES
+VARIABLE         y       c       i       n       w      pi       z       g
+y           1.0000  0.9999  0.9996  0.9616  0.7904 -0.9888 -0.9824     NaN
+c           0.9999  1.0000  0.9993  0.9587  0.7967 -0.9872 -0.9804     NaN
+i           0.9996  0.9993  1.0000  0.9685  0.7738 -0.9924 -0.9870     NaN
+n           0.9616  0.9587  0.9685  1.0000  0.5918 -0.9918 -0.9959     NaN
+w           0.7904  0.7967  0.7738  0.5918  1.0000 -0.6902 -0.6621     NaN
+pi         -0.9888 -0.9872 -0.9924 -0.9918 -0.6902  1.0000  0.9993     NaN
+z          -0.9824 -0.9804 -0.9870 -0.9959 -0.6621  0.9993  1.0000     NaN
+g              NaN     NaN     NaN     NaN     NaN     NaN     NaN     NaN
+
+
+AUTOCORRELATION OF SIMULATED VARIABLES
+VARIABLE         1       2       3       4       5
+y           0.9178  0.8381  0.7590  0.6928  0.6375
+c           0.9188  0.8400  0.7619  0.6964  0.6417
+i           0.9153  0.8332  0.7518  0.6837  0.6270
+n           0.8963  0.7962  0.6974  0.6154  0.5477
+w           0.9833  0.9664  0.9483  0.9313  0.9154
+pi          0.9048  0.8127  0.7217  0.6459  0.5830
+z           0.9020  0.8072  0.7136  0.6358  0.5713
+g              NaN     NaN     NaN     NaN     NaN
+
+
+
+VARIANCE DECOMPOSITION SIMULATING ONE SHOCK AT A TIME (in percent)
+             epsilon_g         epsilon_z  Tot. lin. contr.
+y                 0.00            100.11            100.11
+c                 0.00            100.11            100.11
+i                 0.00            100.11            100.11
+n                 0.00            100.11            100.11
+w                 0.00            100.11            100.11
+pi                0.00            100.11            100.11
+z                 0.00            100.11            100.11
+g                  NaN               NaN               NaN
+Note: numbers do not add up to 100 due to non-zero correlation of simulated shocks in small samples
+
+Total computing time : 0h00m02s
+Note: warning(s) encountered in MATLAB/Octave code
